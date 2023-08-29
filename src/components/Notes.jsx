@@ -25,7 +25,7 @@ const Notes = () => {
         <Note 
           key={note.id}
           note={note}
-          handleClick={ () => dispatch(toggleImportantOf(note.id)) }
+          handleClick={ () => dispatch(toggleImportanceOf(note.id)) }
         />
       )}
     </ul>
